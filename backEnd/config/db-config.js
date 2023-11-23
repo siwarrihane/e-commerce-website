@@ -2,7 +2,7 @@ module.exports ={
     HOST: 'localhost',
     USER: 'root',
     PASSWORD:'root', 
-    DATABASE: 'dripLand',
+    DATABASE: 'dripland',
     DIALECT: 'mysql'
 
 }

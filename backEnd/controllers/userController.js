@@ -1,4 +1,12 @@
-const { models: { User } } = require('../models'); // bring our user model
+const db = require('../models')
+
+// creat main model
+const User = db.users
+
+
+
+
+
 
 module.exports = {
 //add user to data base
