@@ -1,4 +1,4 @@
-const db = require('../models')
+const db = require('../models/product')
 
 // creat main model
 const Product = db.products

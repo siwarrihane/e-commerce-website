@@ -4,7 +4,9 @@ module.exports = (sequelize, DataTypes) => {
         {
             username: DataTypes.STRING,
             password: DataTypes.STRING,
-            email: DataTypes.STRING
+            email: DataTypes.STRING,
+            hello: DataTypes.STRING,
+            hello: DataTypes.STRING,
         },
         {
             freezeTableName: true  // not to preulize our product name
@@ -13,3 +15,6 @@ module.exports = (sequelize, DataTypes) => {
         return User;
     
     };
+
+
+

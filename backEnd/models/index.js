@@ -58,3 +58,8 @@ db.sequelize.sync({ force: false })
 
 
 module.exports = db;
+
+
+
+
+
